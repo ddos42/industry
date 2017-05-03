@@ -323,21 +323,18 @@ iframe {
     font-family: 'Roboto', sans-serif; 
 }
     
-}
+
 
 /*shop stylesssss */
 
 
 
-#product_item {
-/*
+.product_item {
+
     display: flex;
     flex-direction: column;
-    padding-bottom: 1em;
     margin-bottom: 1em;
-*/
-    width: 5000px;
-    background-color: aqua;
+    
 }
 
 .product_thumbnail img {

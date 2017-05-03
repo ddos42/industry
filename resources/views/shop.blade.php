@@ -3,7 +3,7 @@
     <div class="row shop_row">
 
         @foreach($products as $product)
-            <div class="col-md-3  col-xs-6" id="product_item">
+            <div class="col-md-3  col-xs-6 product_item" >
                 <div class="product_thumbnail">
                     <a href="{{$product->id}}/view_product">
                     <img src="{{ $product->image_path }}" alt="">
