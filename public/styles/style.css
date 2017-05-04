@@ -680,9 +680,7 @@ input[type=number]::-webkit-outer-spin-button {
 .artist_item{
     margin-bottom: 2em;
 }
-.location {
-     
-    }
+
    .google-maps {
             position: relative;
             padding-bottom: 60%;
