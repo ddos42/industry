@@ -33,25 +33,11 @@ We are open from 8:30am to 5:30pm, Monday to Friday, NZST. </p> </div>
                     </div>
                     <!-- end of google-maps -->
 <!--  <div id="map"></div>-->
-    <script>
-      function initMap() {
-        var uluru = {lat: -41.298262, lng: 174.774926};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 14,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApg2tiuTdGATrSvfmOu0qsYvljpoGZPKo&callback=initMap">
-    </script>
+
 
 
 </div>
 </div>
 </div>
+
 @stop
