@@ -31,7 +31,7 @@ class PagesController extends Controller
     }
     public function shop()
     {
-        $products = Product::all();
+        $products = Product::orderBy('created_at','desc')->get();
         return view('shop', compact('products'));
     }
     public function show($id){
@@ -82,7 +82,7 @@ class PagesController extends Controller
     
 
     public function admin_home(){
-        $products = Product::all();
+        $products = Product::orderBy('created_at','desc')->get();
         $slider_items = Slider_item::all();
         $blog_items = Blog_item::orderBy('created_at','desc')->get();
         $event_items = Event::orderBy('updated_at','asc')->get();

@@ -1,5 +1,5 @@
 @extends('layouts.app') @section('content')
-<div class="container site_content all_artist_page">
+<main class="container site_content all_artist_page">
 
 <div class="row">    
 @foreach($items as $item)
@@ -18,5 +18,5 @@
             @endforeach
 </div>  
 
-</div>
+</main>
 @stop

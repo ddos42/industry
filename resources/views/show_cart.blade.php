@@ -38,7 +38,7 @@
             
             <div class="col-md-6 cart_right">
                <h3>Personal Details</h3>
-                <form id="personal_details_form"action="">
+                <form id="personal_details_form"action="/">
                    <div class="form-group">
                     <input class="form-control" type="text" id="name" placeholder="Full name" required>
                     </div>

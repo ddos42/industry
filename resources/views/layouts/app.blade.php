@@ -21,7 +21,7 @@
    
 
        <nav class="container main_nav nav_container">
-           <img src="/images/logo.jpg" alt="" id="nav_top_logo">
+          <a href="{{ url('/') }}"><img src="/images/logo.jpg" alt="" id="nav_top_logo"></a> 
             <ul class="nav_bot closed">
                  
                 <li><a href="{{ url('/') }}" class="nav_hover_btn">Home</a></li>
@@ -56,14 +56,7 @@
             </ul>
             <svg class="hamburger" enable-background="new 0 0 512 512" height="50px" id="Layer_1" version="1.0" viewBox="0 0 512 512" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="60" width="384" x="64" y="226"/></g><g><rect height="60" width="384" x="64" y="354"/></g><g><rect height="60" width="384" x="64" y="98"/></g></svg>
        </nav>
-<!--
-           <nav class="container mobile_nav">
-            <ul class="small_nav">
-                  <li><img src="/images/logo.jpg" alt=""></li>
-                   <li> <svg enable-  background="new 0 0 512 512" height="50px" id="Layer_1" version="1.0" viewBox="0 0 512 512" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="60" width="384" x="64" y="226"/></g><g><rect height="60" width="384" x="64" y="354"/></g><g><rect height="60" width="384" x="64" y="98"/></g></svg></li>
-            </ul>
-            </nav>
--->
+
     @yield('content')
     
     
