@@ -28,7 +28,7 @@ We are open from 8:30am to 5:30pm, Monday to Friday, NZST. </p> </div>
 </form>
 </div>
 <div class="col-md-6 contact_map">
- <iframe class="google_map"
+ <iframe id="google_map"
   width="600"
   height="450"
   frameborder="0" style="border:0"
