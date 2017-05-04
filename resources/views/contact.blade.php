@@ -28,9 +28,9 @@ We are open from 8:30am to 5:30pm, Monday to Friday, NZST. </p> </div>
 </form>
 </div>
 <div class="col-md-6 contact_map">
-<div class="google-maps">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4995.275690376701!2d174.7448956058515!3d-36.85726463838321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4795b23525bb%3A0x2e7e3ac010c795a8!2s27+Ponsonby+Rd%2C+Grey+Lynn%2C+Auckland+1011!5e0!3m2!1sen!2snz!4v1487987881743" width="200" height="200" frameborder="0" style="border:0"></iframe>
-                    </div>
+<div class="google_maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5041.755931644769!2d174.7760139530989!3d-41.29252568800015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd770c8aad7%3A0xe35be44c3bf6959c!2sCuba+Mall%2C+Te+Aro%2C+Wellington+6011!5e0!3m2!1sen!2snz!4v1493932685226" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
                     <!-- end of google-maps -->
 <!--  <div id="map"></div>-->
 
