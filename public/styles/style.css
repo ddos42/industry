@@ -680,6 +680,21 @@ input[type=number]::-webkit-outer-spin-button {
 .artist_item{
     margin-bottom: 2em;
 }
+.location {
+        .google-maps {
+            position: relative;
+            padding-bottom: 60%;
+            height: 0;
+            overflow: hidden;
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
 
 /*foooter styles*/
 footer{

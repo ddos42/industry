@@ -28,7 +28,11 @@ We are open from 8:30am to 5:30pm, Monday to Friday, NZST. </p> </div>
 </form>
 </div>
 <div class="col-md-6 contact_map">
-  <div id="map"></div>
+<div class="google-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4995.275690376701!2d174.7448956058515!3d-36.85726463838321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4795b23525bb%3A0x2e7e3ac010c795a8!2s27+Ponsonby+Rd%2C+Grey+Lynn%2C+Auckland+1011!5e0!3m2!1sen!2snz!4v1487987881743" width="200" height="200" frameborder="0" style="border:0"></iframe>
+                    </div>
+                    <!-- end of google-maps -->
+<!--  <div id="map"></div>-->
     <script>
       function initMap() {
         var uluru = {lat: -41.298262, lng: 174.774926};
