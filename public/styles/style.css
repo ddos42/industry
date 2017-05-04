@@ -612,11 +612,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .contact_map{
-        padding-left: 1em;
+    padding-left: 1em;
     padding-top: 5em;
 }
 #google_map{
-
+        width: 100%;
         height: 450px;
        }
 
