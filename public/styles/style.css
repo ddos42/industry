@@ -681,12 +681,14 @@ input[type=number]::-webkit-outer-spin-button {
     margin-bottom: 2em;
 }
 .location {
-        .google-maps {
+     
+    }
+   .google-maps {
             position: relative;
             padding-bottom: 60%;
             height: 0;
-            overflow: hidden;
-            iframe {
+       overflow: hidden;}
+   .contact_map iframe {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -694,7 +696,6 @@ input[type=number]::-webkit-outer-spin-button {
                 height: 100% !important;
             }
         }
-    }
 
 /*foooter styles*/
 footer{
