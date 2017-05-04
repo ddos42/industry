@@ -621,10 +621,6 @@ input[type=number]::-webkit-outer-spin-button {
        }
 
 
- #map {
-        height: 100%;
-      }
-
 /*login style*/
  .login_page .form-group{
     flex-direction: column;
