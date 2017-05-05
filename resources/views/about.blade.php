@@ -9,7 +9,6 @@
                     <a href="{{$item->id}}/artist">
                     <img src="{{ $item->image_path }}" alt="{{$item->name}} icon image">
                     </a>
- <a href="{{$item->id}}/artist"><div id="img_hover_overlay"></div></a>
                
                 </div>
                 <div class="artist_name"><h3>{{$item->name}}</h3></div>
