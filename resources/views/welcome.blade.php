@@ -49,8 +49,7 @@
     
         @foreach($events as $event)
        <div class="col-xs-6 col-md-3 event_item">
-            <div class="event_img"><a href="{{ $event->link }}
-            }}"  target="_blank"><img src="{{ $event->image_path }}"  alt="{{ $event->title }} image"></a></div>
+            <div class="event_img"><a href="{{ $event->link}}"  target="_blank"><img src="{{ $event->image_path }}"  alt="{{ $event->title }} image"></a></div>
              <div class="event_title"><h4>{{ $event->title }}  <span class="event_date_gray">{{$event->date}}</span></h4></div>
        </div>
         @endforeach  
