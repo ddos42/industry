@@ -20,7 +20,7 @@
                     </div>
                     <div class="form-item">
                         <label>Product description</label>
-                        <textarea type="text" name="product_description" required></textarea> 
+                        <textarea name="product_description" required></textarea> 
                     </div>
                       <div class="form-item">
                         <label>Price</label>
