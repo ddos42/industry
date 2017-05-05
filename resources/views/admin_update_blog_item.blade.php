@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container site_content update_blog_item_page admin_cms_page">
+<main class="container site_content update_blog_item_page admin_cms_page">
    <div class="row">
        <div class="col-md-6 col-md-offset-3">
        <h3>Update blog post</h3>
@@ -27,7 +27,7 @@
                      <label>Youtube embed</label>
                      <input type="text" name="embed"  value="{{ $item->youtube_embed}}" required /> 
                  </div>
-            <div class="update_blog_img"><img src="/{{$item->image_path }}" alt=""></div>
+            <div class="update_blog_img"><img src="/{{$item->image_path }}" alt="{{$item->title}}"></div>
               <div class="form-item">
                      <label>Image upload <span class="img_size_check">(Use images with size 1000px X 525px)</span></label>
                        <input type="file" name="imgUpload" id="imgUpload">
@@ -44,6 +44,6 @@
        
        </div>
     </div>
-</div>
+</main>
 
 @stop

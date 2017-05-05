@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container site_content update_slider_page admin_cms_page">
+<main class="container site_content update_slider_page admin_cms_page">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
         <h3>Update Event</h3>
@@ -23,7 +23,7 @@
                     <input type="text"   name="link" value="{{ $item->link}}" required /> 
                 </div>
            
-                <div class="update_blog_img"><img src="/{{$item->image_path }}" alt=""></div>
+                <div class="update_blog_img"><img src="/{{$item->image_path }}" alt=" {{ $item->title}} image"></div>
                 <div class="form-item">
                     <label>Image upload</label>
                     <input type="file" name="imgUpload" id="imgUpload">
@@ -37,6 +37,6 @@
             </form>
         </div>
     </div>
-</div>
+</main>
 
 @stop

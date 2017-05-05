@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container site_content update_product_page admin_cms_page">
+<main class="container site_content update_product_page admin_cms_page">
    <div class="row">
        <div class="col-md-6 col-md-offset-3">
        <h3>Update Product</h3>
@@ -28,7 +28,7 @@
                         <label>Price</label>
                         <input type="number" name="product_price"  value="{{ $item->product_price}}" required /> 
                     </div>
-                    <div class="update_blog_img"><img src="/{{$item->image_path }}" alt=""></div>
+                    <div class="update_blog_img"><img src="/{{$item->image_path }}" alt="{{ $item->product_title}} image"></div>
                     <div class="form-item">
                         <label>Image upload</label>
                         <input type="file" name="imgUpload" id="imgUpload">
@@ -45,6 +45,6 @@
        
        </div>
     </div>
-</div>
+</main>
 
 @stop

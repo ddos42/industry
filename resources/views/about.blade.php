@@ -7,7 +7,7 @@
                
                 <div class="product_thumbnail">
                     <a href="{{$item->id}}/artist">
-                    <img src="{{ $item->image_path }}" alt="">
+                    <img src="{{ $item->image_path }}" alt="{{$item->name}} icon image">
                     </a>
  <a href="{{$item->id}}/artist"><div id="img_hover_overlay"></div></a>
                

@@ -1,6 +1,6 @@
 @extends('layouts.app') @section('content')
 
-<div class="container site_content">
+<main class="container site_content">
     <div class="row cart_row">
     @if (Cart::count() == 0 )
           <div class="col-md-12 empty_cart">
@@ -18,14 +18,14 @@
             <h3>Order summary</h3>
             @foreach($cart_items as $cart_item)
             <div class="col-md-12 cart_item">
-                <img src="{{ $cart_item->options->image }}" alt="">
+                <img src="{{ $cart_item->options->image }}" alt="{{ $cart_item->description }}">
                 <div class="cart_info">
                     <div class="product_title">
                         {{ $cart_item->name}}</div>
                     <div class="cart_subtitle">{{ $cart_item->description }}</div>
                     <div class="cart_price">Price NZD: ${{ $cart_item->price}}.00</div>
                     <div class="cart_qty">QTY: {{ $cart_item->qty}}</div>
-                    <a href="{{$cart_item->rowId}}/remove_from_cart"><strong>Remove item</strong> <img id="cross_icon"src="/images/cross.png" alt=""></a> 
+                    <a href="{{$cart_item->rowId}}/remove_from_cart"><strong>Remove item</strong> <img id="cross_icon"src="/images/cross.png" alt="remove item icon"></a> 
                 </div>
             </div>
             @endforeach
@@ -76,7 +76,7 @@
    @endif
      
     </div>
-</div>
+</main>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 $( ".remove_item_flash" ).delay(3000).slideUp(300);

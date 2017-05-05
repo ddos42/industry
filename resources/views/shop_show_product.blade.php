@@ -1,9 +1,9 @@
 @extends('layouts.app') @section('content')
-<div class="container site_content show_single_product">
+<main class="container site_content show_single_product">
     <div class="row show_product_row">
 
         <div class="col-md-4 col-sm-6">
-            <div class="product_img"><img src="/{{ $products->image_path }}" alt=""></div>
+            <div class="product_img"><img src="/{{ $products->image_path }}" alt="{{$products->product_title}}"></div>
         </div>
 
         <div class="col-md-5 col-sm-6 single_product_info">
@@ -23,6 +23,6 @@
             <h2 class="back_to_shop"><a href="/shop">Back to shop</a></h2>
         </div>
     </div>
-</div>
+</main>
 @stop
 

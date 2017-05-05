@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('content')         
- <div class="container site_content show_blog_item_page">
+ <main class="container site_content show_blog_item_page">
    <div class="row">
        <div class="col-md-12">
                  <h1 class="show_item_header">{{ $item->title }}</h1>
@@ -19,7 +19,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-     <img id="carousel_img"src="/{{$item->image_path}}" alt="show image">
+     <img id="carousel_img"src="/{{$item->image_path}}" alt="{{$item->title}}">
     </div>
 
     <div class="item">
@@ -51,6 +51,6 @@
        </div>
     </div>
     
-</div>
+</main>
 
 @stop

@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')         
- <div class="container site_content show_blog_item_page">
+ <main class="container site_content show_blog_item_page">
    <div class="row">
        <div class="col-md-12">
                  <h1 class="show_item_header">{{ $item->slide_title }}</h1>
                  <h5 class="post_date">{{$item->created_at->format('d-m-Y') }}</h5>
-                 <img src="/{{$item->image_path}}" alt="show image">
+                 <img src="/{{$item->image_path}}" alt="{{ $item->slide_title }} image">
    </div>
     </div>
     
@@ -16,6 +16,6 @@
        </div>
     </div>
     
-</div>
+</main>
 
 @stop

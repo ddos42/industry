@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container site_content admin_page">
+<main class="container site_content admin_page">
     <div class="row">
         <div class="col-md-4">      
 <h1 class="admin_control_panel_header">Admin Control Panel</h1>  
@@ -45,7 +45,7 @@
       @foreach($blog_items as $blog_item)
             <div class="row blog_item">
                    <div class="col-md-4">
-                    <div class="admin_item_thumbnail"><img src="{{ $blog_item->image_path }}" alt=""></div></div>
+                    <div class="admin_item_thumbnail"><img src="{{ $blog_item->image_path }}" alt="{{$blog_item->title}} icon image"></div></div>
                     <div class="col-md-5">
                         <div class="admin_item_title"><h4>{{ $blog_item->title }}</h4></div>
                         <div class="blog_item_subtitle">{{  $blog_item->subtitle }}</div>
@@ -68,7 +68,7 @@
            @foreach($slider_items as $slider_item)
             <div class="row blog_item">
                    <div class="col-md-4">
-                    <div class="admin_item_thumbnail"><img src="{{ $slider_item->image_path }}" alt=""></div></div>
+                    <div class="admin_item_thumbnail"><img src="{{ $slider_item->image_path }}" alt="{{$slider_item->slide_title}}"></div></div>
                     <div class="col-md-5">
                         <div class="admin_item_title"><h4>{{ $slider_item->slide_title }}</h4></div>
                         <div class="blog_item_subtitle">{{  $slider_item->slide_subtitle }}</div>
@@ -96,7 +96,7 @@
            @foreach($products as $product)
             <div class="row blog_item">
                 <div class="col-xs-6">
-                    <div class="admin_item_thumbnail"><img src="{{ $product->image_path }}" alt=""></div>
+                    <div class="admin_item_thumbnail"><img src="{{ $product->image_path }}" alt="{{$product->product_title}}"></div>
                 </div>
                 <div class="col-xs-6">
                     <div class="blog_item_title"><h4>{{ $product->product_title }}</h4></div>
@@ -119,7 +119,7 @@
            @foreach($event_items as $event_item)
             <div class="row blog_item"> 
                    <div class=" col-xs-6">
-                    <div class="admin_item_thumbnail"><img src="{{ $event_item->image_path }}" alt=""></div></div>
+                    <div class="admin_item_thumbnail"><img src="{{ $event_item->image_path }}" alt="{{$event_item->title}}"></div></div>
                     <div class="col-xs-6">
                     <div class="admin_item_title"><h4>{{ $event_item->title }}</h4></div>
                     </div>
@@ -136,7 +136,7 @@
             </div>
         </div>
     </div>
-</div>
+</main>
 
 
 @endsection

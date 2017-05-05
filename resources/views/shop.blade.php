@@ -1,12 +1,12 @@
 @extends('layouts.app') @section('content')
-<div class="container">
+<main class="container">
     <div class="row shop_row">
 
         @foreach($products as $product)
             <div class="col-md-3  col-xs-6 product_item" >
                 <div class="product_thumbnail">
                     <a href="{{$product->id}}/view_product">
-                    <img src="{{ $product->image_path }}" alt="">
+                    <img src="{{ $product->image_path }}" alt="{{$product->product_title}}">
                     </a>
                     <a href="{{$product->id}}/view_product"><div class="img_hover_overlay"></div></a>
                 </div>
@@ -24,5 +24,5 @@
         @endforeach
 
     </div>
-</div>
+</main>
 @stop

@@ -1,8 +1,8 @@
 @extends('layouts.app') @section('content')
-<div class="container site_content single_artist_page">
+<main class="container site_content single_artist_page">
 
 <div class="row artist_content">
-    <div class="col-sm-3"><img src="/{{$item->image_path}}" alt=""> <h2 class="artist_name">{{$item->name}}</h2>
+    <div class="col-sm-3"><img src="/{{$item->image_path}}" alt="{{$item->name}} image"> <h2 class="artist_name">{{$item->name}}</h2>
     </div>
     <div class="col-sm-8">
         <div class="row">
@@ -17,6 +17,6 @@
     </div>
 </div>
 
-</div>
+</main>
 
 @stop
