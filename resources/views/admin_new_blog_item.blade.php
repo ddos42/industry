@@ -11,15 +11,15 @@
           <div class="form-wrapper">
                  <div class="form-item">
                      <label>Title</label>
-                     <input type="text"  name="title"required /> 
+                     <input type="text"  name="title" required /> 
                  </div>
                  <div class="form-item">
                      <label>Subtitle</label>
-                     <input type="text" name="subtitle"required /> 
+                     <input type="text" name="subtitle" required /> 
                  </div>
                  <div class="form-item">
                      <label>Body area</label>
-                     <textarea  name="description"required></textarea>
+                     <textarea  name="description" required></textarea>
                  </div>
                  <div class="form-item">
                      <label>Youtube embed</label>
