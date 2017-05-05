@@ -17,7 +17,7 @@
                  </div>
                  <div class="form-item">
                      <label>Subtitle</label>
-                     <input type="text" value="{{ $item->subtitle}}" name="subtitle"required /> 
+                     <input type="text" value="{{ $item->subtitle}}" name="subtitle" required /> 
                  </div>
                  <div class="form-item">
                      <label>Body text</label>
